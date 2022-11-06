@@ -153,6 +153,7 @@
         .boxes{
             background-color: aliceblue;
             z-index: 40px;
+            min-height: 18px;
             //display: flex;
             border: 0.1rem solid red;
             display: inline;
