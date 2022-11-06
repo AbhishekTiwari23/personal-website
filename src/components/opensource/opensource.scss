@@ -6,12 +6,21 @@
     font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
+    .grade{
+        font-weight: bold;
+        background: -webkit-linear-gradient(-45deg, #ee582a, #b01b54, #264deb, #23d5ab);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;       
+    }
     //text-align: center;
     .stats{
         font-weight: bold;
             font-size: 4rem;
             text-align: center;
         
+    }
+    .open-para{
+        font-size: 1rem;
     }
     .contribution{
         text-align: center;

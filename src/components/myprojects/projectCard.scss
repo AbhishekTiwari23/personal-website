@@ -3,6 +3,7 @@
             //height: auto;
             width: 70%;
             border-radius: 20px;
+            color: black;
             //padding:1rem;
             //left: 2px;
             margin-left: auto;
@@ -12,7 +13,7 @@
             flex-wrap: wrap;
             //margin-top: 3rem;
             
-            background-color: aqua;
+            background-color: #00fffc;
     // .projectCard-left{
     //     text-transform: uppercase;
     //     word-spacing: 2rem;
@@ -71,5 +72,5 @@
 }
 .projectCard-wrapper:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 60px #f8f3f3;
 }

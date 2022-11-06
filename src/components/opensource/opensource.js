@@ -1,13 +1,14 @@
 import React from "react";
 import Abhishek from "../../abhishek/abhishek";
-import Layer5 from "../../assets/socials/layer5dark.svg";
+import Layer5 from "../../assets/socials/layer5.svg";
 import Companies from "./openSourceCard";
 import "./opensource.scss";
 const OpenSource = () => {
   return (
     <div className="open-source">
       <div className="stats">
-        <p className="open-title">Open Source</p>
+        <p className="open-title"><span className='grade' >I love to contribute</span></p>
+        <p className="open-para">Look at some of my contributions</p>
         <img
           className="open-img"
           alt="AbhishekTiwari23's GitHub Stats"

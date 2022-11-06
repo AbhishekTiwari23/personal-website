@@ -16,7 +16,7 @@ const Header = () =>{
           <div className="menu">
             {/* <p className='menu-text'>menu</p> */}
             <img src={Hamburger} alt="hamburger-open" />
-            <img src={Close} alt="hamburger-close" />
+            {/* <img src={Close} alt="hamburger-close" /> */}
           </div>
         </div>
     )

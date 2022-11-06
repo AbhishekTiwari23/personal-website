@@ -5,11 +5,32 @@
     padding: 1rem;
     //border: 0.02rem solid black;
     //border-radius: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     flex-wrap: wrap;
-    .title{
-        text-align: center;
 
+    .content{
+        margin-bottom: 6rem;
+        .title{
+            font-weight: bold;
+            font-size: 3rem;
+            margin-left: 0rem;
+        }
+        .para{
+            font-size: 1.3rem;
+        }
+
+        .grade {
+            font-weight: bold;
+            background: -webkit-linear-gradient(
+              -45deg,
+              #ee582a,
+              #b01b54,
+              #264deb,
+              #23d5ab
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
     }
     
 }

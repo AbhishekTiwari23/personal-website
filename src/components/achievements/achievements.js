@@ -5,10 +5,15 @@ import Card from './achievementCard';
 const Achievements = () =>{
     return (
         <div className="achievements">
-            <h2 className='title'>Achievements</h2>
+            <div className="content">
+            <div className='title'><span className='grade'>Success is not a piece of cake </span> 🍰</div>
+            <p className='para'>Have a look at some of my achievements 🥇</p>
+            </div>
+            <div className="cards">
             <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
             <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
             <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
+            </div>
         </div>
     )
 }

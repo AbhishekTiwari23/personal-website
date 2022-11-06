@@ -6,7 +6,10 @@ import './myproject.scss';
 const Projects=()=>{
     return(
         <div className="project-wrapper">
-             <div className="title">Projects</div>
+            <div className="content">
+             <div className="title"><span className='grade'> Yeah,I really work hard </span><small>💼</small></div>
+             <p className="project-content">Each of my project is Unique ✨</p>
+             </div>
              <div className="allprojectCard-wrapper">
                 <ProjectCard description = "React.JS SCSS HTML" name="Portfolio" front={Front} back={Back} siteLink="" github="" error="" />
                 {/* <ProjectCard description = "React.JS SCSS HTML" name="Portfolio" front={Front} back={Back} siteLink="" github="" error="" /> */}

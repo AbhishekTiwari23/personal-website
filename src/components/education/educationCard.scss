@@ -1,8 +1,10 @@
 .college{
     .college-wrapper{
-        border: 0.01rem solid black;
+        border: 0.01rem solid #f8f3f3;
+        background-color: #f8f3f3;
+        color: black;
         height: auto;
-        width: 40%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         border-radius: 20px;
@@ -27,10 +29,13 @@
         
     }
     .college-wrapper:hover{
-        box-shadow: 0 0 110px rgba(20, 17, 17, 0.2); 
+        box-shadow: 0 0 60px #f8f3f3;
     }
     
 }
 .college-pic:hover{
+    transform: scale(1.09);
+}
+.college-wrapper:hover{
     transform: scale(1.09);
 }

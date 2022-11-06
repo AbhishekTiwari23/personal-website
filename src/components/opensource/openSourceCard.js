@@ -4,7 +4,7 @@ const Companies = (props) => {
   return (
     <div className="companies-wrapper">
       <div className="company-name">
-        <p>{props.name}</p>
+        {/* <p>{props.name}</p> */}
       </div>
       <div className="company-logo">
         <img src={props.logo} alt=""  />
