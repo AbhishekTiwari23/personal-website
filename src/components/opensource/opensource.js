@@ -1,6 +1,6 @@
 import React from "react";
 import Abhishek from "../../abhishek/abhishek";
-import Layer5 from "../../assets/socials/layer5.svg";
+import Layer5 from "../../assets/socials/layer5dark.svg";
 import Companies from "./openSourceCard";
 import "./opensource.scss";
 const OpenSource = () => {
