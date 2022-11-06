@@ -1,0 +1,14 @@
+.footer{
+    width:auto;
+    .abhiLogo{
+        height: 70px;
+    }
+    text-decoration: none;
+    
+    .socials{
+        float: right;
+        :hover{
+            transform: scale(1.09);
+        }
+    }
+}

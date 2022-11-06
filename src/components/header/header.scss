@@ -1,0 +1,41 @@
+
+$mcolor : #10101a; 
+$mfont : 'Mark Pro', sans-serif;
+
+.header{
+    width : 50%;
+    position: fixed;
+    top: 1rem;
+    left : 0;
+    right: 0;
+    padding: 0.9rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    //align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    //text-align: center;
+    border: 0.2rem solid rgb(73, 64, 64);
+    border-radius:2rem ;
+    .name-logo{
+        display: inline-block;
+        .abhiLogo{
+            height: 70px;
+
+        }
+        .name{
+            display: inline-block;
+        }
+    }
+    .menu{
+        // .p{
+        //     display: inline;
+        // }
+        .img{
+            display: inline-block;
+        }
+        //display: inline-block;
+        float: right;
+        
+    }
+}

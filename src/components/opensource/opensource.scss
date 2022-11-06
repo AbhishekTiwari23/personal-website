@@ -1,0 +1,26 @@
+.open-source{
+    height: auto;
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    //text-align: center;
+    .stats{
+        font-weight: bold;
+            font-size: 4rem;
+            text-align: center;
+        
+    }
+    .contribution{
+        text-align: center;
+    }
+
+}
+.open-img:hover{
+    transform: scale(1.09);
+    background-color: black;
+    border-radius: 20px;
+    box-shadow:  0 0 20px rgb(107, 97, 97);
+}

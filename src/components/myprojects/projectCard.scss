@@ -1,0 +1,75 @@
+.projectCard-wrapper{
+    border: 0.01erem solid black;
+            //height: auto;
+            width: 70%;
+            border-radius: 20px;
+            //padding:1rem;
+            //left: 2px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 0.01rem solid black;
+            border-radius: 1rem;
+            flex-wrap: wrap;
+            //margin-top: 3rem;
+            
+            background-color: aqua;
+    // .projectCard-left{
+    //     text-transform: uppercase;
+    //     word-spacing: 2rem;
+    //     position:absolute;
+    //     transform: rotate(270deg);
+    //     //s left: -2px;
+    //      //transform-origin: 0 0;
+
+    // }
+    .projectCard-middle{
+            text-align: center;
+            //margin: 1rem;
+            
+            .front{
+            
+                width: 100%;
+                border-radius: 1rem 1rem 0rem 0rem;
+            }
+            .front:hover{
+              //  display: none;
+            }
+
+            .back{
+                height: 30%;
+                width: 100%;
+                display: none;
+            }
+            .back:hover{
+               // display: inline;
+            }
+
+    }
+    .projectCard-right{
+        //margin: 2rem;
+        //bottom: 0%;
+        .name{
+           // display: block;
+            font-weight: bold;
+            font-size: 2rem;
+            //font-size: 2rem;
+        }
+        .site-link{
+            margin-top: -3rem;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .card-socials{
+            //stext-align: center;
+            :hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.projectCard-wrapper:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 10px black;
+}

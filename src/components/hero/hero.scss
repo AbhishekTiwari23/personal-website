@@ -1,0 +1,54 @@
+.hero{
+    height: auto;
+    width: auto;
+    margin: 16rem 1rem 1rem 1rem;
+    padding: 1rem;
+    // border: 0.02rem solid black;
+    // border-radius: 2rem;
+    font-size: 2rem;
+    flex-wrap: wrap;
+
+    .greeting-text{
+        display: block;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+       // font-size: 30px;
+        text-align: center;
+    }
+    .greeting-text-para{
+        display: block;
+    //margin-block-start: 1em;
+    //margin-block-end: 1em;
+    //margin-inline-start: 0px;
+    //margin-inline-end: 0px;
+    margin-top: 2rem;
+    text-align: center;
+   font-size: 9rem;
+    
+    }
+    h2{
+      display: inline;
+    }
+    .grade{
+        font-weight: bold;
+        background: -webkit-linear-gradient(-45deg, #ee582a, #b01b54, #264deb, #23d5ab);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;       
+    }
+    // .text{
+    //     display: inline;
+    // }
+    // .my-photo{
+    //     border-radius: 200px;
+    //     float: right;
+    //     height: 10rem;
+    //     width: 10rem;
+    //     display: inline;
+    // }
+}
+// .hero:hover{
+//     box-shadow: 0 0 110px rgba(20, 17, 17, 0.2); 
+// }

@@ -1,0 +1,34 @@
+.skill_card{
+
+//     margin: 1rem;
+//     padding: 1rem;
+//     border: 0.1rem solid black;
+//     border-radius: 2rem;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+   
+
+//     .skill_card-left{
+//        // display: flex;
+//         box-sizing: inherit;
+//         .skill_name{
+//             font-weight: bold;
+//         //    display: inline;
+//             }
+// }
+//     .skill_card-right{
+//         //display: flex;
+//         .skill-card-img{
+//             float: right;
+//             display: inline;
+//             height: 0.2rem;
+//             width:2rem
+//         }
+        
+//     }
+
+.skill_card :hover{
+    box-shadow: 0 0 110px rgba(20, 17, 17, 0.2); 
+}
+}

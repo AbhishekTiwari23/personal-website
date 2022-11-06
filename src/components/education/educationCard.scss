@@ -1,0 +1,36 @@
+.college{
+    .college-wrapper{
+        border: 0.01rem solid black;
+        height: auto;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        padding: 1rem;
+        text-align: center;
+        justify-content: space-between;//check
+        .college-pic{
+            margin-top: 1rem;
+            margin-bottom: 0.6rem;
+            height: 10rem;
+            width: 10rem;
+
+        }
+        .college_name,.degree_name,.specialisation{
+            font-weight: bold;
+            font-size: larger;
+        }
+        .college_timeline{
+            font-weight: lighter;
+            font-size:small;
+        }
+        
+    }
+    .college-wrapper:hover{
+        box-shadow: 0 0 110px rgba(20, 17, 17, 0.2); 
+    }
+    
+}
+.college-pic:hover{
+    transform: scale(1.09);
+}
