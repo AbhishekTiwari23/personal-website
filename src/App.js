@@ -8,10 +8,12 @@ import OpenSource from './components/opensource/opensource';
 import Footer from './components/footer/footer';
 import Projects from './components/myprojects/myproject';
 import Achievements from './components/achievements/achievements';
-
+import ParticlesComponent from './Point';
+// import Abhishek from './assets/mypic/Abhishek.png'
 function App() {
   return (
     <div className="App">
+      
      <Header/>
      <Hero/>
      <Skills/>
@@ -19,7 +21,10 @@ function App() {
      <Education/>
      <OpenSource/>
      <Achievements/>
-     <Footer/> 
+     <Footer/>
+     <ParticlesComponent/> 
+     <p>Made with love by Abhishek Tiwari</p>
+     {/* <Abhishek/> */}
     </div>
   );
 }

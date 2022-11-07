@@ -79,9 +79,17 @@
         height: 70px;
     }
     text-decoration: none;
-    
+    .tagline{
+      display: inline-block;
+      text-align: center;
+      font-weight: bold;
+      margin: 1rem;
+      float: right;
+    }
     .socials{
-        float: right;
+        // float: right;
+        text-align: center;
+        margin-top: -4rem;
         :hover{
             transform: scale(1.09);
         }

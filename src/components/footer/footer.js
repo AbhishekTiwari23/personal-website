@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import Abhishek from "../../abhishek/abhishek";
-import AbhishekLogo from "../../assets/mypic/Abhishek.jpg";
+import AbhishekLogo from "../../assets/mypic/Abhishek.png";
 import Github from "../../assets/socials/githubwhite.svg";
 import LinkedIn from "../../assets/socials/linkedin.svg";
 import Twitter from "../../assets/socials/twitter.svg";
@@ -54,6 +54,7 @@ const Footer = () => {
           <img src={AbhishekLogo} alt="name" className="abhiLogo" />
           {/* <div className = "footername">{Abhishek.myname.firstName} <span>{Abhishek.myname.lastName}</span></div> */}
         </a>
+        <p className="tagline">Made with <big>❤️</big> by Abhishek Tiwari</p>
         <div className="socials">
           <a href={Abhishek.socials.myGithub}>
             <img src={Github} alt="Github" />

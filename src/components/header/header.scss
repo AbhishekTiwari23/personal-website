@@ -3,7 +3,7 @@ $mcolor : #10101a;
 $mfont : 'Mark Pro', sans-serif;
 
 .header{
-    width : 50%;
+    width : 70%;
     position: fixed;
     top: 1rem;
     left : 0;
@@ -29,10 +29,19 @@ $mfont : 'Mark Pro', sans-serif;
     }
     .menu{
         // .p{
-        //     display: inline;
+            display: inline;
+            .menu-text{
+                display: inline;
+                float: left;
+                //margin: 1rem;
+            }
         // }
-        .img{
-            display: inline-block;
+        // .img{
+        //     display: inline;
+            
+        // }
+        .hamburger{
+            display: inline;
         }
         //display: inline-block;
         float: right;

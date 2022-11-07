@@ -121,23 +121,25 @@
 //     transition: 0.8s ease;
 // }
 .skills{
-    margin: 1rem auto;
+    margin: 0rem auto;
     padding: 1rem;
     height: auto;
     width: 40%;
     .heading{
         margin-bottom: 6rem;
+        text-align: justify;
     .title{
-        //text-align: center;
+        // text-align: center;
         font-weight: bold;
         font-size: 3rem;
         .grade{
             font-weight: bold;
-            background: -webkit-linear-gradient(-45deg, #ee582a, #b01b54, #264deb, #23d5ab);
+            background: -webkit-linear-gradient(-45deg, #0ad5b7, #b01b54, #264deb, #23d5ab);
            -webkit-background-clip: text;
            -webkit-text-fill-color: transparent;       
         }
     }
+    
 }
     .content{
         .content-title{
@@ -153,10 +155,11 @@
         .boxes{
             background-color: aliceblue;
             z-index: 40px;
+            // height: 200px;
             min-height: 18px;
             //display: flex;
-            border: 0.1rem solid red;
-            display: inline;
+            border: 0.1rem solid rgb(88, 82, 82);
+            display: inline-block;
             font-size: 1.1rem;
             //overflow: hidden;
             border-radius: 10px;

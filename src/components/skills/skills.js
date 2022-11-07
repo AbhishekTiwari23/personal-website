@@ -1,16 +1,29 @@
 import React from "react";
 import "./skills.scss";
-import Html from "../../assets/skills/html.svg";
+ import Html from "../../assets/skills/html.svg";
 import Css from "../../assets/skills/css.svg";
+import Git from "../../assets/skills/git.svg";
+import Xcode from "../../assets/skills/xcode.svg";
+import GoogleCloud from "../../assets/skills/goglecloud.svg";
+import C from "../../assets/skills/c.svg";
+import Java from "../../assets/skills/java.svg";
+import Scss from "../../assets/skills/scss.svg";
+import BootStrap from "../../assets/skills/bootstrap.svg";
+import TypeScript from "../../assets/skills/typescript.svg";
+import Gatsby from "../../assets/skills/gatsby.svg";
+import VsCode from "../../assets/skills/vscode.svg";
 import Github from "../../assets/skills/github.svg";
 import JavaScript from "../../assets/skills/javascript.svg";
+import WordPress from "../../assets/skills/wordpress.svg";
+import WebPack from '../../assets/skills/webpack.svg';
 import Android from "../../assets/skills/android.svg";
 import Kotlin from "../../assets/skills/kotlin.svg";
 import Reac from "../../assets/skills/reactjs.svg";
 import Flutter from "../../assets/skills/flutter.svg";
 import Python from "../../assets/skills/python.svg";
 import PhotoShop from "../../assets/skills/adobePhotoshop.svg";
-import Cpp from "../../assets/skills/html.svg";
+import Dart from '../../assets/skills/dart.svg'
+import Cpp from "../../assets/skills/cpp.svg";
 import SkillCard from "./skillsCard";
 const Skills = () => {
   return (
@@ -195,50 +208,71 @@ const Skills = () => {
     // </div>
     // </div>
     <div className="skills">
-        <hr/>
-        <div className="heading">
-      <div className="title"><span className='grade'>Tech Skills</span> 🛠️ </div>
-      <p className="sub-title">Skills that I developed over the years</p>
+      <div className="heading">
+        <div className="title">
+          <span className="grade">Skills that I developed over the years</span> 🛠️{" "}
+        </div>
       </div>
       <div className="content">
         <div className="content-title">Programming Languages </div>
         <div className="box-out">
-        <div className="boxes">C++</div>
-        <div className="boxes">Python</div>
-        <div className="boxes">C</div>
-        <div className="boxes">Java</div>
+          {/* <div className="boxes">C++</div> */}
+          <img src={Cpp} alt="" className="boxes"/>
+          <img src={Python} alt="" className="boxes"/>
+          <img src={C} alt="" className="boxes"/>
+          <img src={Java} alt="" className="boxes"/>
+          {/* <div className="boxes">Python</div> */}
+          {/* <div className="boxes">C</div> */}
+          {/* <div className="boxes">Java</div> */}
         </div>
         <div className="content-title">Web Development</div>
         <div className="box-out">
-        <div className="boxes">HTML</div>
-        <div className="boxes">CSS</div>
-        <div className="boxes">JavaScript</div>
-        <div className="boxes">React.Js</div>
-        <div className="boxes">BootStrap</div>
-        <br />
-        <div className="boxes">SCSS</div>
-        <div className="boxes">TypeScript</div>
-        <div className="boxes">GatsBy.Js</div>
+          {/* <div className="boxes">HTML</div> */}
+          <img src={Html} alt="" className="boxes"/>
+          {/* <div className="boxes">CSS</div> */}
+          <img src={Css} alt="" className="boxes"/>
+          {/* <div className="boxes">JavaScript</div> */}
+          <img src={JavaScript} alt="" className="boxes"/>
+          {/* <div className="boxes">React.Js</div> */}
+          <img src={Reac} alt="" className="boxes"/>
+          {/* <div className="boxes">BootStrap</div> */}
+          <img src={BootStrap} alt="" className="boxes"/>
+          {/* <div className="boxes">SCSS</div> */}
+          <img src={Scss} alt="" className="boxes"/>
+          {/* <div className="boxes">TypeScript</div> */}
+          <img src={TypeScript} alt="" className="boxes"/>
+          {/* <div className="boxes">GatsBy.Js</div> */}
+          <img src={Gatsby} alt="" className="boxes"/>
         </div>
 
         <div className="content-title">Tools </div>
-        <div className="boxes">GitHub</div>
-        <div className="boxes">Vercel</div>
-        <div className="boxes">VsCode</div>
-        <div className="boxes">XCode</div>
-        <br />
-        <div className="boxes">GoogleCloud</div>
-        <div className="boxes">Git</div>
-        <div className="boxes">AndroidStudio</div>
-        <div className="boxes">Wordpress</div>
-
+        {/* <div className="boxes">GitHub</div> */}
+        <img src={Github} alt="" className="boxes"/>
+        {/* <div className="boxes">Vercel</div> */}
+        {/* <img src={Vercel} alt="" className="boxes"/> */}
+        <img className = "boxes" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABuklEQVRoge2YTygEUQCHP2T9KUlKSjkoF6UcXBykXLCKG2eunJYzVxy5ceXMwcFFSS6Uy0qtP6UcpJQkWavd5bDzirFj3ox57416X321h232+9XWzDywWCz/mgqF1x4ARp3Pu8Chwt+KnBXgw+WS0aIAJPkZL0wa7JIiAWTwHnAF1Birk2Ae73jhnLE6H1qAJ/wHPAOthhp/ZQP/eOG6oUZPeoA88gMKQK+RUg8OkI8XHqH2PiTNJMHjhRMGer9RB9wQfsAtUK+9+guLZaKCuqC92qENeJEI9PMVaNfcDsBWiFgvNzW30wcUIwgXFoF+XfGVwHGE8cJT59rKmVYQL5xSHd8A3CkccA80qhywrDBeqOzFpwN40zAgB3SqGLCjIV64HXX8oMZ44VBU8VVA2sCAc6A6igGzBuKFM3+NbwIeDA54BJr/MmDNYLxwNWx8F/AegwF5oDvMgL0YxAv3g8aPxyDa7ZhsfAK4iEGw22skT/VSMYj1MiUz4DIGoV5m3LHlzmWyQK3MUgNkcZ1ilHsDOtPTEoq0zJdGKB39mf67uC0Aw7JLk8AJpWdz0+E5p0U63mKxWCzSfAJHiA5JFAVAjQAAAABJRU5ErkJggg=="></img>
+        {/* <div className="boxes">VsCode</div> */}
+        <img src={VsCode} alt="" className="boxes"/>
+        {/* <div className="boxes">XCode</div> */}
+        <img src={Xcode} alt="" className="boxes"/>
+        {/* <div className="boxes">GoogleCloud</div> */}
+        <img src={GoogleCloud} alt="" className="boxes"/>
+        {/* <div className="boxes">Git</div> */}
+        <img src={Git} alt="" className="boxes"/>
+        {/* <div className="boxes">AndroidStudio</div> */}
+        <img src={Android} alt="" className="boxes"/>
+        {/* <div className="boxes">Wordpress</div> */}
+        <img src={WordPress} alt="" className="boxes"/>
 
         <div className="content-title">App Development </div>
-        <div className="boxes">Kotlin</div>
-        <div className="boxes">Flutter</div>
-        <div className="boxes">Dart</div>
-        <div className="boxes">Android Web Pack</div>
-
+        {/* <div className="boxes">Kotlin</div> */}
+        <img src={Kotlin} alt="" className="boxes"/>
+        {/* <div className="boxes">Flutter</div> */}
+        <img src={Flutter} alt="" className="boxes"/>
+        {/* <div className="boxes">Dart</div> */}
+        <img src={Dart} alt="" className="boxes"/>
+        {/* <div className="boxes">Android Web Pack</div> */}
+        <img src={WebPack} alt="" className="boxes"/>
       </div>
     </div>
   );

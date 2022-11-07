@@ -27,31 +27,30 @@
             text-align: center;
             //margin: 1rem;
             
-            .front{
-            
+            .project-pic{
                 width: 100%;
+                height:auto;
                 border-radius: 1rem 1rem 0rem 0rem;
             }
-            .front:hover{
-               display: none;
-            }
+            
 
-            .back{
-                height: 30%;
-                width: 100%;
-                display: none;
-            }
-            .back:hover{
-               // display: inline;
-            }
-
+    }
+    .projectCard-middle:hover .back{
+        display: inline;
+    }
+    .projectCard-middle:hover.front{
+        display: none;
+        z-index: 99;
     }
     .projectCard-right{
         //margin: 2rem;
         //bottom: 0%;
+        padding-top: 1rem;
         .name{
            // display: block;
             font-weight: bold;
+            text-decoration: none;
+            color: black;
             font-size: 2rem;
             //font-size: 2rem;
         }

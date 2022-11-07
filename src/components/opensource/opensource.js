@@ -1,5 +1,4 @@
 import React from "react";
-import Abhishek from "../../abhishek/abhishek";
 import Layer5 from "../../assets/socials/layer5dark.svg";
 import Companies from "./openSourceCard";
 import "./opensource.scss";
@@ -8,7 +7,6 @@ const OpenSource = () => {
     <div className="open-source">
       <div className="stats">
         <p className="open-title"><span className='grade' >I love to contribute</span></p>
-        <p className="open-para">Look at some of my contributions</p>
         <img
           className="open-img"
           alt="AbhishekTiwari23's GitHub Stats"
@@ -16,7 +14,8 @@ const OpenSource = () => {
         />
       </div>
       <div className="contribution">
-        <h2 className="s">Contributed to</h2>
+      <p className="open-para">Look at some of my contributions</p>
+        <Companies name="Layer5" logo={Layer5} />
         <Companies name="Layer5" logo={Layer5} />
       </div>
     </div>

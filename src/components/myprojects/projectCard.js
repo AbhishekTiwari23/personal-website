@@ -8,18 +8,13 @@ const ProjectCard = (props)=>{
                 <p className="description">{props.description}</p>
             </div> */}
             <div className="projectCard-middle">
-                <img src={props.front} alt="front" className="front" />
-                <img src={props.back} alt="back" className="back" />
+                <img src={props.pic} alt="" className='project-pic' />
             </div>
             <div className="projectCard-right">
-                <p className="name">{props.name}</p>
-                <a href={props.siteLink} className="site-link">Site Link</a>
+                <a href={props.link} className="name">{props.name}</a>
                 <div className="card-socials">
                     <a href={props.github}>
                         <img src={Github} alt="Github Link" className="github" />
-                    </a>
-                    <a href={props.error}>
-                        <img src="https://img.icons8.com/fluency/48/000000/error-cloud.png" alt="Error Link" className="error" />
                     </a>
                 </div>
             </div>

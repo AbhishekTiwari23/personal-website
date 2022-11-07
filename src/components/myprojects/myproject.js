@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectCard from './projectCard';
-import Front from '../../assets/mypic/memoji_full.jpeg';
-import Back from  '../../assets/mypic/photo.jpeg';
+import Portfolio from '../../assets/mypic/portfolio.png'
 import './myproject.scss';
 const Projects=()=>{
     return(
@@ -11,7 +10,7 @@ const Projects=()=>{
              <p className="project-content">Each of my project is Unique ✨</p>
              </div>
              <div className="allprojectCard-wrapper">
-                <ProjectCard description = "React.JS SCSS HTML" name="Portfolio" front={Front} back={Back} siteLink="" github="" error="" />
+                <ProjectCard description = "React.JS SCSS HTML" name="Portfolio" pic={Portfolio} siteLink="" github="" error="" />
                 {/* <ProjectCard description = "React.JS SCSS HTML" name="Portfolio" front={Front} back={Back} siteLink="" github="" error="" /> */}
              </div>
         </div>

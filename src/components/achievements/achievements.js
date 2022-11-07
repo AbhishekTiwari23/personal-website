@@ -1,6 +1,9 @@
 import React from 'react'
-import Abhishek from '../../abhishek/abhishek';
 import './achievements.scss'
+import JeeMains from '../../assets/mypic/jee2021.jpeg'
+import JeeAdvance from '../../assets/mypic/jeeadvance2021.webp'
+import Hacktoberfest from '../../assets/mypic/hacktoberfest.jpeg';
+import HackSquad from '../../assets/mypic/hacks.webp'
 import Card from './achievementCard';
 const Achievements = () =>{
     return (
@@ -10,9 +13,10 @@ const Achievements = () =>{
             <p className='para'>Have a look at some of my achievements 🥇</p>
             </div>
             <div className="cards">
-            <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
-            <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
-            <Card name = "Jee Mains" logoUrl = "" para = "Cracked the Exam with 98.2%ile"   />
+            <Card name = "Hack Squad" logoUrl = {HackSquad} para = "Win the competetion with my team submited 100PR and got a rank of 12"   />
+            <Card name = "Hacktoberfest" logoUrl = {Hacktoberfest} para = "contributed in the fest conducted by Digital Ocean"  className="hacktoberfest" />
+            <Card name = "Jee Advance" logoUrl = {JeeAdvance} para = "Cracked the Exam"   />
+            <Card name = "Jee Mains" logoUrl = {JeeMains} para = "Cracked the Exam with 98.2%ile"   />
             </div>
         </div>
     )

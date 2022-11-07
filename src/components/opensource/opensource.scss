@@ -8,7 +8,7 @@
     margin-right: auto;
     .grade{
         font-weight: bold;
-        background: -webkit-linear-gradient(-45deg, #ee582a, #b01b54, #264deb, #23d5ab);
+        background: -webkit-linear-gradient(-45deg, #2cadc1, #1bb08d, #264deb, #cc23d5);
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;       
     }
@@ -20,7 +20,10 @@
         
     }
     .open-para{
-        font-size: 1rem;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+        
     }
     .contribution{
         text-align: center;

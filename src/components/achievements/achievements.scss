@@ -1,7 +1,7 @@
 .achievements{
     height: auto;
     width: 40%;
-    margin: 1rem auto;
+    margin: 1rem auto 7rem auto;
     padding: 1rem;
     //border: 0.02rem solid black;
     //border-radius: 2rem;
@@ -14,23 +14,28 @@
             font-weight: bold;
             font-size: 3rem;
             margin-left: 0rem;
+            margin-top: 6rem;
         }
         .para{
             font-size: 1.3rem;
+        }
+        .hacktoberfest{
+            background-color: antiquewhite;
         }
 
         .grade {
             font-weight: bold;
             background: -webkit-linear-gradient(
               -45deg,
-              #ee582a,
-              #b01b54,
-              #264deb,
-              #23d5ab
+              #2aeead,
+              #8a961f,
+              #288e6f,
+              #f3f70d
             );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
     }
+    
     
 }
