@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.scss";
-import AbhishekLogo from "../../assets/mypic/Abhishek.png";
+import AbhishekLogo from "../../assets/mypic/abhishek.png";
 import Hamburger from "../../assets/socials/hamburger.svg";
 // import Close from "../../assets/socials/close.svg";
 const Toggle = () => {
