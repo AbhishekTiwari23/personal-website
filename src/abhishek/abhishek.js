@@ -17,7 +17,7 @@ const Abhishek = {
     socials: {
         myGithub: "https://github.com/AbhishekTiwari23",
         myLinkedin: "https://www.linkedin.com/in/abhishek-tiwari-5ba03422b/",
-        myTwitter: "https://twitter.com/ABHISHEKTIWA23",
+        myTwitter: "https://twitter.com/ABHISHEKTI23",
         myDev: "https://dev.to/abhishektiwari23",
         myLinkee: "",
     },
