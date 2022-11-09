@@ -2,7 +2,7 @@
     .content{
             margin: 1rem;
             margin-bottom: 3rem;
-            margin-top: 3rem;
+            // margin-top: -30rem;
             margin-left: 8%;
         .title{
             font-weight: bold;
@@ -94,5 +94,67 @@
             transform: scale(1.09);
         }
     }
+}
+}
+@media (max-width:959px) {
+  .footer{
+    .content{
+            margin: 1rem;
+            margin-bottom: 3rem;
+            // margin-top: -30rem;
+            
+        .title{
+            font-weight: bold;
+            font-size: 1.8rem;   
+        }
+        .links{
+          .link-content{
+            font-weight: bold;
+            margin: 2rem 0rem;
+            font-size: 1rem;
+          }
+          .content-socials{
+            a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            padding: 1rem;
+            font-size: 1rem;
+            margin-top: 2rem;
+          }
+        }
+        }
+    }
+
+.footer-links{
+
+    
+    .abhiLogo{
+        height: 50px;
+        //text-align: center;
+        margin-left: 6rem;
+        margin-right: auto;
+    }
+    text-decoration: none;
+    .tagline{
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      margin: 1rem;
+    
+    }
+    .socials{
+        // float: right;
+        text-align: center;
+        display: none;
+        //margin-top: -4rem;
+
+    }
+    .tagline{
+      text-align: center;
+      display: block;
+
+    }
+}
 }
 }

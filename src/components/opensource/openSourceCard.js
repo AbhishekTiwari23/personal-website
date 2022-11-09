@@ -1,4 +1,6 @@
 import React from "react";
+// import { ReactDOM } from "react";
+// import { QueryClint,  QueryClintProvider} from 'react-query';
 import "./opensourcecard.scss";
 const Companies = (props) => {
   return (

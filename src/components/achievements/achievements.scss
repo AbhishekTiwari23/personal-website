@@ -39,3 +39,30 @@
     
     
 }
+@media (max-width:959px) {
+    .achievements{
+        height: auto;
+        width: 90%;
+        margin: 1rem auto 2rem 0rem;
+        padding: 1rem;
+        //border: 0.02rem solid black;
+        //border-radius: 2rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    
+        .content{
+            margin-bottom: 2rem;
+            .title{
+                font-weight: bold;
+                font-size: 2rem;
+                margin-left: 0rem;
+                margin-top: 6rem;
+            }
+            .para{
+                font-size: 1rem;
+            }
+        }
+        
+        
+    }
+}

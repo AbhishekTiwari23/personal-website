@@ -73,3 +73,232 @@
     transform: scale(1.02);
     box-shadow: 0 0 60px #f8f3f3;
 }
+
+@media (max-width: 900){
+    .projectCard-wrapper{
+        border: 0.01erem solid black;
+                //height: auto;
+                width: 90%;
+                border-radius: 200px;
+                color: black;
+                //padding:1rem;
+                //left: 2px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1rem solid black;
+                border-radius: 1rem;
+                flex-wrap: wrap;
+                //margin-top: 3rem;
+                
+                background-color: #fcfcfc;
+        // .projectCard-left{
+        //     text-transform: uppercase;
+        //     word-spacing: 2rem;
+        //     position:absolute;
+        //     transform: rotate(270deg);
+        //     //s left: -2px;
+        //      //transform-origin: 0 0;
+    
+        // }
+        .projectCard-middle{
+                text-align: center;
+                //margin: 1rem;
+                
+                .project-pic{
+                    width: 100%;
+                    height:auto;
+                    border-radius: 1rem 1rem 0rem 0rem;
+                }
+                
+    
+        }
+        .projectCard-middle:hover .back{
+            display: inline;
+        }
+        .projectCard-middle:hover.front{
+            display: none;
+            z-index: 99;
+        }
+        .projectCard-right{
+            //margin: 2rem;
+            //bottom: 0%;
+            padding-top: 1rem;
+            .name{
+               // display: block;
+                font-weight: bold;
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+                //font-size: 2rem;
+            }
+            .site-link{
+                margin-top: -3rem;
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+            .card-socials{
+                //stext-align: center;
+                :hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    .projectCard-wrapper:hover{
+        transform: scale(1.02);
+        box-shadow: 0 0 60px #f8f3f3;
+    }
+        
+}
+@media (max-width:959px){
+ .projectCard-wrapper{
+    border: 0.01erem solid black;
+            //height: auto;
+            width: 70%;
+            border-radius: 20px;
+            color: black;
+            //padding:1rem;
+            //left: 2px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 0.01rem solid black;
+            border-radius: 1rem;
+            flex-wrap: wrap;
+            //margin-top: 3rem;
+            
+            background-color: #fcfcfc;
+    // .projectCard-left{
+    //     text-transform: uppercase;
+    //     word-spacing: 2rem;
+    //     position:absolute;
+    //     transform: rotate(270deg);
+    //     //s left: -2px;
+    //      //transform-origin: 0 0;
+
+    // }
+    .projectCard-middle{
+            text-align: center;
+            //margin: 1rem;
+            
+            .project-pic{
+                width: 100%;
+                height:auto;
+                border-radius: 1rem 1rem 0rem 0rem;
+            }
+            
+
+    }
+    .projectCard-middle:hover .back{
+        display: inline;
+    }
+    .projectCard-middle:hover.front{
+        display: none;
+        z-index: 99;
+    }
+    .projectCard-right{
+        //margin: 2rem;
+        //bottom: 0%;
+        padding-top: 1rem;
+        .name{
+           // display: block;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            font-size: 2rem;
+            //font-size: 2rem;
+        }
+        .site-link{
+            margin-top: -3rem;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .card-socials{
+            //stext-align: center;
+            :hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.projectCard-wrapper:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 60px #f8f3f3;
+}
+
+@media (max-width: 959){
+    .projectCard-wrapper{
+        border: 0.01erem solid black;
+                //height: auto;
+                width: 90%;
+                border-radius: 200px;
+                color: black;
+                //padding:1rem;
+                //left: 2px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1rem solid black;
+                border-radius: 1rem;
+                flex-wrap: wrap;
+                //margin-top: 3rem;
+                
+                background-color: #fcfcfc;
+        // .projectCard-left{
+        //     text-transform: uppercase;
+        //     word-spacing: 2rem;
+        //     position:absolute;
+        //     transform: rotate(270deg);
+        //     //s left: -2px;
+        //      //transform-origin: 0 0;
+    
+        // }
+        .projectCard-middle{
+                text-align: center;
+                //margin: 1rem;
+                
+                .project-pic{
+                    width: 100%;
+                    height:auto;
+                    border-radius: 1rem 1rem 0rem 0rem;
+                }
+                
+    
+        }
+        .projectCard-middle:hover .back{
+            display: inline;
+        }
+        .projectCard-middle:hover.front{
+            display: none;
+            z-index: 99;
+        }
+        .projectCard-right{
+            //margin: 2rem;
+            //bottom: 0%;
+            padding-top: 1rem;
+            .name{
+               // display: block;
+                //font-weight: bold;
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+                //font-size: 2rem;
+            }
+            .site-link{
+                margin-top: -3rem;
+                text-decoration: none;
+                color: black;
+                font-size: 0rem;
+                font-weight: bold;
+            }
+        }
+    }
+    .projectCard-wrapper:hover{
+        transform: scale(1.02);
+        box-shadow: 0 0 60px #f8f3f3;
+    }
+        
+}   
+}

@@ -1,6 +1,8 @@
 import './App.css';
 import './App.scss';
 import Header from './components/header/header';
+// import { ChangeEventHandler } from 'react';
+// import { useState, useEffect } from 'react';
 import Hero from './components/hero/hero';
 import Skills from './components/skills/skills';
 import Education from './components/education/education';
@@ -10,10 +12,11 @@ import Projects from './components/myprojects/myproject';
 import Achievements from './components/achievements/achievements';
 import ParticlesComponent from './Point';
 // import Abhishek from './assets/mypic/Abhishek.png'
+
 function App() {
   return (
-    <div className="App">
-      
+    <div className={"App ${theme} "}>
+      {/* <button onClick={toggleTheme}></button> */}
      <Header/>
      <Hero/>
      <Skills/>
@@ -21,9 +24,10 @@ function App() {
      <Education/>
      <OpenSource/>
      <Achievements/>
+     
+     
      <Footer/>
-     <ParticlesComponent/> 
-     <p>Made with love by Abhishek Tiwari</p>
+     {/* <p>Made with love by Abhishek Tiwari</p> */}
      {/* <Abhishek/> */}
     </div>
   );

@@ -9,3 +9,12 @@
     transform: scale(1.2);
     box-shadow: 0 0 20px #f0f0f0;
 }
+@media (max-width:90px){
+    .companies-wrapper{
+        background-color: #fcfcfc;
+        display: inline;
+        float: left;
+        border-radius: 1rem;
+        margin: 0rem 3rem 1rem 0rem;
+    }   
+}

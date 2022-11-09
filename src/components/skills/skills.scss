@@ -179,3 +179,66 @@
     transform: scale(1.02);
     box-shadow: 0 0 50px #fcfcfc;
 }
+
+@media (max-width:959px){
+    .skills{
+        margin: 0rem auto;
+        padding: 1rem;
+        height: auto;
+        width: 90%;
+        .heading{
+            margin-bottom: 2rem;
+            text-align: justify;
+        .title{
+            font-weight: bold;
+            font-size: 2.1rem;
+            word-spacing: 0.7rem;
+            text-align: center;
+            .grade{
+                font-weight: bold;
+                background: -webkit-linear-gradient(-45deg, #0ad5b7, #b01b54, #264deb, #23d5ab);
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;       
+            }
+        }
+        
+    }
+        .content{
+            .content-title{
+                font-weight: bold;
+                font-size: 2rem;
+                text-align: inherit;
+                margin: 2rem 1rem;
+            }
+            // .box-out{
+            //     background-color: #23d5ab;
+            //     height: 400px;
+            // }
+            .boxes{
+                background-color: aliceblue;
+                z-index: 40px;
+                // height: 200px;
+                min-height: 18px;
+                //display: flex;
+                border: 0.1rem solid rgb(88, 82, 82);
+                display: inline-block;
+                font-size: 1.1rem;
+                //overflow: hidden;
+                border-radius: 10px;
+                padding: 10px;
+                //flex-wrap: wrap;
+                text-align: center;
+                margin: 1rem;
+                //vertical-align: middle;
+               // width: auto;
+                color: black;
+                
+            }
+        }
+    
+    }
+    .boxes:hover{
+        transform: scale(1.02);
+        box-shadow: 0 0 50px #fcfcfc;
+    }
+}
