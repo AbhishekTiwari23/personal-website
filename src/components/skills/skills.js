@@ -21,10 +21,9 @@ import Kotlin from "../../assets/skills/kotlin.svg";
 import Reac from "../../assets/skills/reactjs.svg";
 import Flutter from "../../assets/skills/flutter.svg";
 import Python from "../../assets/skills/python.svg";
-import PhotoShop from "../../assets/skills/adobePhotoshop.svg";
 import Dart from '../../assets/skills/dart.svg'
 import Cpp from "../../assets/skills/cpp.svg";
-import SkillCard from "./skillsCard";
+//import SkillCard from "./skillsCard";
 const Skills = () => {
   return (
     //         <div classNameName="skills">
@@ -250,7 +249,7 @@ const Skills = () => {
         <img src={Github} alt="" className="boxes"/>
         {/* <div className="boxes">Vercel</div> */}
         {/* <img src={Vercel} alt="" className="boxes"/> */}
-        <img className = "boxes" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABuklEQVRoge2YTygEUQCHP2T9KUlKSjkoF6UcXBykXLCKG2eunJYzVxy5ceXMwcFFSS6Uy0qtP6UcpJQkWavd5bDzirFj3ox57416X321h232+9XWzDywWCz/mgqF1x4ARp3Pu8Chwt+KnBXgw+WS0aIAJPkZL0wa7JIiAWTwHnAF1Birk2Ae73jhnLE6H1qAJ/wHPAOthhp/ZQP/eOG6oUZPeoA88gMKQK+RUg8OkI8XHqH2PiTNJMHjhRMGer9RB9wQfsAtUK+9+guLZaKCuqC92qENeJEI9PMVaNfcDsBWiFgvNzW30wcUIwgXFoF+XfGVwHGE8cJT59rKmVYQL5xSHd8A3CkccA80qhywrDBeqOzFpwN40zAgB3SqGLCjIV64HXX8oMZ44VBU8VVA2sCAc6A6igGzBuKFM3+NbwIeDA54BJr/MmDNYLxwNWx8F/AegwF5oDvMgL0YxAv3g8aPxyDa7ZhsfAK4iEGw22skT/VSMYj1MiUz4DIGoV5m3LHlzmWyQK3MUgNkcZ1ilHsDOtPTEoq0zJdGKB39mf67uC0Aw7JLk8AJpWdz0+E5p0U63mKxWCzSfAJHiA5JFAVAjQAAAABJRU5ErkJggg=="></img>
+        <img className = "boxes" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABuklEQVRoge2YTygEUQCHP2T9KUlKSjkoF6UcXBykXLCKG2eunJYzVxy5ceXMwcFFSS6Uy0qtP6UcpJQkWavd5bDzirFj3ox57416X321h232+9XWzDywWCz/mgqF1x4ARp3Pu8Chwt+KnBXgw+WS0aIAJPkZL0wa7JIiAWTwHnAF1Birk2Ae73jhnLE6H1qAJ/wHPAOthhp/ZQP/eOG6oUZPeoA88gMKQK+RUg8OkI8XHqH2PiTNJMHjhRMGer9RB9wQfsAtUK+9+guLZaKCuqC92qENeJEI9PMVaNfcDsBWiFgvNzW30wcUIwgXFoF+XfGVwHGE8cJT59rKmVYQL5xSHd8A3CkccA80qhywrDBeqOzFpwN40zAgB3SqGLCjIV64HXX8oMZ44VBU8VVA2sCAc6A6igGzBuKFM3+NbwIeDA54BJr/MmDNYLxwNWx8F/AegwF5oDvMgL0YxAv3g8aPxyDa7ZhsfAK4iEGw22skT/VSMYj1MiUz4DIGoV5m3LHlzmWyQK3MUgNkcZ1ilHsDOtPTEoq0zJdGKB39mf67uC0Aw7JLk8AJpWdz0+E5p0U63mKxWCzSfAJHiA5JFAVAjQAAAABJRU5ErkJggg==" alt="d-it"></img>
         {/* <div className="boxes">VsCode</div> */}
         <img src={VsCode} alt="" className="boxes"/>
         {/* <div className="boxes">XCode</div> */}

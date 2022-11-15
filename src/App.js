@@ -11,6 +11,8 @@ import Footer from './components/footer/footer';
 import Projects from './components/myprojects/myproject';
 import Achievements from './components/achievements/achievements';
 import ParticlesComponent from './Point';
+import GotoTop from '../src/components/gototop/gototop.js'
+import Lamp from './components/lamp/lamp';
 // import Abhishek from './assets/mypic/Abhishek.png'
 
 function App() {
@@ -18,14 +20,16 @@ function App() {
     <div className={"App ${theme} "}>
       {/* <button onClick={toggleTheme}></button> */}
      <Header/>
+     {/* <div className="wave"> <Lamp/></div> */}
      <Hero/>
      <Skills/>
      <Projects/>
      <Education/>
      <OpenSource/>
+     
      <Achievements/>
      
-     
+     <GotoTop/>
      <Footer/>
      {/* <p>Made with love by Abhishek Tiwari</p> */}
      {/* <Abhishek/> */}

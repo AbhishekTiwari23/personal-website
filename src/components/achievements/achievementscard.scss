@@ -10,6 +10,8 @@
     border-radius: 1rem;
     background-color: #fcfcfc;
     color:black;
+    transition-delay:2000000sec transform; // ise samjho
+    animation-duration: 3sec;
     .achi-img{
         height : auto;
         width: 100%;
@@ -28,7 +30,10 @@
     }
 }
 .achi-wrapper:hover{
+    
+    
     transform: scale(1.04);
+    animation-duration: 1sec;
     box-shadow: 0 0 60px #f8f3f3;
 }
 @media (max-width:959px) {

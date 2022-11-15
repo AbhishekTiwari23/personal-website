@@ -162,29 +162,7 @@
     h2{
       display: inline;
     }
-    .grade{
-        font-weight: bold;
-        background: linear-gradient(-90deg, #ee582a, #b01b54, #264deb, #23d5ab);
-       -webkit-background-clip: text;
-       background-size: 200%;
-       -webkit-text-fill-color: transparent; 
-       animation: grading 8s ease infinite;      
-    }
-    @keyframes grading {
-      from {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0);
-      }
-      to {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-      }
       
     }
 
-}
 }

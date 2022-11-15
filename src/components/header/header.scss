@@ -4,7 +4,7 @@ $mfont : 'Mark Pro', sans-serif;
 
 .header{
     width : 70%;
-    position: fixed;
+    //position: fixed;
     top: 1rem;
     left : 0;
     right: 0;
@@ -40,8 +40,19 @@ $mfont : 'Mark Pro', sans-serif;
         //     display: inline;
             
         // }
-        .hamburger{
+       
+        .hamburger-open{
             display: inline;
+            // background-color: #fcfcfc;
+            border-radius: 25rem;
+            height: 20px;
+            margin: 20px;
+            cursor: pointer;
+            // box-shadow: 0rem 0rem 10rem 2rem #fcfcfc;
+            
+        }
+        .hamburger-open:hover{
+            transform: scale(1.2);
         }
         //display: inline-block;
         float: right;

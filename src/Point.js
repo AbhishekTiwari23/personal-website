@@ -2,7 +2,12 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles
 import { useCallback, useMemo } from "react";
-const toggle =true;
+import {theme_mode} from '../src/components/header/header.js';
+let toggle = "dark";
+let color_mode = "#fcfcfc";
+if(toggle == "dark"){
+  color_mode = "#10101a"
+}
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
@@ -13,8 +18,7 @@ const ParticlesComponent = (props) => {
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       background: {
-         color: "#10101a", // this sets a background color for the canvas
-        
+         color: color_mode, // this sets a background color for the canvas
       },
       fullScreen: {
         
@@ -40,8 +44,11 @@ const ParticlesComponent = (props) => {
           repulse: {
             distance: 100, // distance of the particles from the cursor
           },
+          
         },
+        
       },
+      
       particles: {
         links: {
           enable: true, // enabling this will make particles linked together
@@ -68,7 +75,7 @@ const ParticlesComponent = (props) => {
       },
     };
   }, []);
-
+  
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
   const particlesInit = useCallback((engine) => {
    loadSlim(engine);
