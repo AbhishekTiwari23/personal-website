@@ -13,6 +13,7 @@ import Achievements from './components/achievements/achievements';
 import ParticlesComponent from './Point';
 import GotoTop from '../src/components/gototop/gototop.js'
 import Lamp from './components/lamp/lamp';
+import HeaderBox from './components/headerBox/headerbox';
 // import Abhishek from './assets/mypic/Abhishek.png'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div className={"App ${theme} "}>
       {/* <button onClick={toggleTheme}></button> */}
      <Header/>
+     {/* <HeaderBox/> */}
      <Hero/>
      <Skills/>
      <Projects/>
