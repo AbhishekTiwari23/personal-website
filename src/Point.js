@@ -34,12 +34,12 @@ const ParticlesComponent = (props) => {
           onHover: {
             enable: true, // enables the hover event
             mode: "repulse",
-            //size : {min:100}, // make the particles run away from the cursor
+            size : {min:10}, // make the particles run away from the cursor
           },
         },
         modes: {
           push: {
-            quantity: 10, // number of particles to add on click
+            quantity: 1, // number of particles to add on click
           },
           repulse: {
             distance: 100, // distance of the particles from the cursor
@@ -52,14 +52,17 @@ const ParticlesComponent = (props) => {
       particles: {
         links: {
           enable: true, // enabling this will make particles linked together
-          distance: 100, // maximum distance for linking the particles
+          distance: 1, // maximum distance for linking the particles
           //color:"#BD10E0" // aBJKSNSDLADADMADADAM;DMSDA;DMS;DSDSDS
           color :{
-            value:["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"] //LKAMDMADAMDMASADAS
+           // value:["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"] //LKAMDMADAMDMASADAS
+           
           }
         },
+        
         color :{
-          value:["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"] //LKAMDMADAMDMASADAS
+          //value:["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"] //LKAMDMADAMDMASADAS
+          value:"random",
         },
         move: {
           enable: true, // enabling this will make particles move in the canvas
@@ -69,8 +72,16 @@ const ParticlesComponent = (props) => {
           value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
         },
         size: {
-          value: { min: 1, max: 5 }, // let's randomize the particles size a bit
+          value: { min: 1, max: 10 }, // let's randomize the particles size a bit
         },
+        number:{
+          value: 100,
+        },
+        breakPoint:{ // still have to handle it for moble view
+          number:{
+            value: 30,
+          }
+        }
         
       },
     };

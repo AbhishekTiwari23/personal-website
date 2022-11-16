@@ -20,7 +20,6 @@ function App() {
     <div className={"App ${theme} "}>
       {/* <button onClick={toggleTheme}></button> */}
      <Header/>
-     {/* <div className="wave"> <Lamp/></div> */}
      <Hero/>
      <Skills/>
      <Projects/>

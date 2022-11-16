@@ -13,11 +13,11 @@ const OpenSource = () => {
           src="https://awesome-github-stats.azurewebsites.net/user-stats/AbhishekTiwari23?cardType=github&theme=github-dark&Background=10101A&Text=FEFEFE&Title=A269DD&Ring=A269DD"
         />
       </div>
-      <div className="contribution">
+      {/* <div className="contribution">
       <p className="open-para">Look at some of my contributions</p>
         <Companies name="Layer5" logo={Layer5} />
         <Companies name="Layer5" logo={Layer5} />
-      </div>
+      </div> */}
     </div>
   );
 };
