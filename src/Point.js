@@ -2,24 +2,45 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles
 import { useCallback, useMemo } from "react";
-import {theme_mode} from '../src/components/header/header.js';
-let toggle = "dark";
-let color_mode = "#fcfcfc";
-if(toggle == "dark"){
-  color_mode = "#10101a"
+import { useState } from "react";
+
+const dark = {
+  color : "#fcfcfc",
+  background : "#10101a"
 }
+const light ={
+  color: "#10101a",
+  background: "#fcfcfc",
+}
+
+const ParticlesComponent = (props) => {
+const [color_mode, setcolor_mode] = useState(light);
+
+  const ToggleStyle =()=>{
+    if(color_mode.background = "#10101a"){
+      setcolor_mode.background  = "#10101a";
+    }
+    else{
+      setcolor_mode = dark;
+    }
+  }
+
+
+
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
-const ParticlesComponent = (props) => {
+
   // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
   const options = useMemo(() => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       background: {
-         color: color_mode, // this sets a background color for the canvas
+         color: "#10101a", // this sets a background color for the canvas
+        //  color: "#fcfcfc",
       },
+      
       fullScreen: {
         
         enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default

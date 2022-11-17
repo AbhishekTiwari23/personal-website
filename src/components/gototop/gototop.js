@@ -18,7 +18,7 @@ document.addEventListener("scroll", () => {
     backToTopButton.classList.add("hidden")
   }
 })
-
+// ye state se hoga aise nahi
 const totop=()=>{
     document.body.scrollIntoView(
         {
