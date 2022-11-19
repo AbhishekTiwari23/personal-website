@@ -53,6 +53,7 @@ $mfont : 'Mark Pro', sans-serif;
         }
         .hamburger-open:hover{
             transform: scale(1.2);
+            transition: 2s;
         }
         //display: inline-block;
         float: right;

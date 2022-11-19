@@ -1,6 +1,5 @@
 import React from 'react'
 import Abhishek from '../../abhishek/abhishek';
-import MyImage from '../../assets/mypic/photo.jpeg';
 import ParticlesComponent from '../../Point';
 import './hero.scss';
 

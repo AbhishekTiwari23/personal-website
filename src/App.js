@@ -10,6 +10,7 @@ import OpenSource from './components/opensource/opensource';
 import Footer from './components/footer/footer';
 import Projects from './components/myprojects/myproject';
 import Achievements from './components/achievements/achievements';
+import AboutMe from './components/abouMe/aboutme';
 import ParticlesComponent from './Point';
 import GotoTop from '../src/components/gototop/gototop.js'
 import Lamp from './components/lamp/lamp';
@@ -21,7 +22,8 @@ function App() {
     <div className={"App ${theme} "}>
       {/* <button onClick={toggleTheme}></button> */}
      <Header/>
-     {/* <HeaderBox/> */}
+     {/* <HeaderBox/>
+     <AboutMe/> */}
      <Hero/>
      <Skills/>
      <Projects/>

@@ -8,6 +8,7 @@
 .companies-wrapper:hover{
     transform: scale(1.2);
     box-shadow: 0 0 20px #f0f0f0;
+    transition: 2s;
 }
 @media (max-width:90px){
     .companies-wrapper{

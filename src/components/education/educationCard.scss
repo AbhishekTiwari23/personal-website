@@ -35,9 +35,11 @@
 }
 .college-pic:hover{
     transform: scale(1.09);
+    transition: 2s;
 }
 .college-wrapper:hover{
     transform: scale(1.09);
+    transition: 2s;
 }
 @media (max-width:959px){
     .college{

@@ -178,6 +178,7 @@
 .boxes:hover{
     transform: scale(1.02);
     box-shadow: 0 0 50px #fcfcfc;
+    transition: 1s;
 }
 
 @media (max-width:959px){
@@ -240,5 +241,6 @@
     .boxes:hover{
         transform: scale(1.02);
         box-shadow: 0 0 50px #fcfcfc;
+        transition: 4s;
     }
 }

@@ -5,7 +5,7 @@ const Education = () =>{
     return(
         <div className="education">
             <p className='title'><span className='grade'>I am a Learner </span>📚</p>
-            <EducationCard link= "www.google.com"/>
+            <EducationCard link= "http://www.nsit.ac.in/"/>
         </div>
     )
 }

@@ -33,15 +33,15 @@ const Footer = () => {
         <div className="links">
           <div className="link-content">Connet with me on socials 🥂</div>
           <div className="content-socials">
-            <a href={Abhishek.socials.myGithub}>
+            <a href={Abhishek.socials.myGithub} target= "_blank">
               {/* <img src={Github} alt="Github" /> */}
               🐙GH
             </a>
-            <a href={Abhishek.socials.myLinkedin}>
+            <a href={Abhishek.socials.myLinkedin} target= "_blank">
               {/* <img src={LinkedIn} alt="LinkedIn" /> */}
               🐦 TW
             </a>
-            <a href={Abhishek.socials.myTwitter}>
+            <a href={Abhishek.socials.myTwitter} target= "_blank">
               📸 IN
               {/* <img src={Twitter} alt="Twitter" /> */}
             </a>
@@ -56,13 +56,13 @@ const Footer = () => {
         </a>
         <p className="tagline">Made with <big>❤️</big> by {Abhishek.myname.firstName } {Abhishek.myname.lastName}</p>
         <div className="socials">
-          <a href={Abhishek.socials.myGithub}>
+          <a href={Abhishek.socials.myGithub} target= "_blank">
             <img src={Github} alt="Github" />
           </a>
-          <a href={Abhishek.socials.myLinkedin}>
+          <a href={Abhishek.socials.myLinkedin} target= "_blank">
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <a href={Abhishek.socials.myTwitter}>
+          <a href={Abhishek.socials.myTwitter} target= "_blank">
             <img src={Twitter} alt="Twitter" />
           </a>
         </div>
