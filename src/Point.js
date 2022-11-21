@@ -43,7 +43,7 @@ const [color_mode, setcolor_mode] = useState(light);
       
       fullScreen: {
         
-        enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
+       // enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       interactivity: {

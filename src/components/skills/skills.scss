@@ -125,6 +125,7 @@
     padding: 1rem;
     height: auto;
     width: 40%;
+    text-align: center;
     .heading{
         margin-bottom: 6rem;
         text-align: justify;
@@ -145,7 +146,7 @@
         .content-title{
             font-weight: bold;
             font-size: 1.5rem;
-            text-align: inherit;
+            text-align: center;
             margin: 3rem 1rem;
         }
         // .box-out{
@@ -169,7 +170,7 @@
             margin: 1rem;
             //vertical-align: middle;
            // width: auto;
-            color: black;
+            color: black;;
             
         }
     }

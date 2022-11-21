@@ -1,6 +1,6 @@
 import React from 'react'
 import './headerbox.scss';
-import AboutMe from '../abouMe/aboutme';
+import AboutMe from '../../pages/abouMe/aboutme';
 //import HeaderStyle from './headerBox.style';
 import Close from '../../assets/socials/close.svg'
 const HeaderBox = ()=>{

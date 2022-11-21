@@ -18,7 +18,9 @@ import WordPress from "../../assets/skills/wordpress.svg";
 import WebPack from '../../assets/skills/webpack.svg';
 import Android from "../../assets/skills/android.svg";
 import Kotlin from "../../assets/skills/kotlin.svg";
+import Node from "../../assets/skills/nodejs.svg";
 import Reac from "../../assets/skills/reactjs.svg";
+import Next from "../../assets/skills/nextjs.svg";
 import Flutter from "../../assets/skills/flutter.svg";
 import Python from "../../assets/skills/python.svg";
 import Dart from '../../assets/skills/dart.svg'
@@ -242,6 +244,8 @@ const Skills = () => {
           <img src={TypeScript} alt="" className="boxes"/>
           {/* <div className="boxes">GatsBy.Js</div> */}
           <img src={Gatsby} alt="" className="boxes"/>
+          <img src={Node} alt="" className="boxes"/>
+          <img src={Next} alt="" className="boxes"/>
         </div>
 
         <div className="content-title">Tools </div>
